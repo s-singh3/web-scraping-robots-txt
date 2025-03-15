@@ -1,0 +1,9 @@
+Website,Allowed Paths,Disallowed Paths,Example Disallowed
+https://www.google.com/,89,248,"['/search', '/sdch', '/groups', '/index.html?', '/?']"
+https://www.facebook.com/,84,686,"['/', '/', '/', '/', '/']"
+https://www.amazon.com/,17,121,"['/exec/obidos/account-access-login', '/exec/obidos/change-style', '/exec/obidos/flex-sign-in', '/exec/obidos/handle-buy-box', '/exec/obidos/tg/cm/member/']"
+https://www.twitter.com/,4,20,"['/search/realtime', '/search/users', '/search/*/grid', '/*?', '/*/followers']"
+https://www.wikipedia.org/,3,459,"['/', '/', '/', '/', '/']"
+https://www.reddit.com/,0,1,['/']
+https://www.nytimes.com/,19,124,"['/ads/', '/adx/bin/', '/athletic/wp/wp-admin/', '/athletic/async-*', '/athletic/search/*']"
+https://www.bbc.com/,0,67,"['/bitesize/search$', '/bitesize/search/', '/bitesize/search?', '/cbbc/search/', '/cbbc/search$']"
