@@ -15,11 +15,6 @@ Install dependencies using:
 pip install requests pandas
 ```
 
-## Usage
-Run the script with:
-```sh
-python robots_txt_analysis.py
-```
 The output will include:
 - **Console Display**: A summary table with allowed and disallowed path counts.
 - **CSV File**: `robots_txt_analysis.csv` for further analysis.
@@ -36,10 +31,4 @@ The output will include:
 - **E-commerce sites** block checkout and account-related pages.
 - **News websites** restrict paywalled content but allow most articles.
 
-## Next Steps
-- Improve parsing for edge cases (e.g., missing values in `robots.txt`).
-- Visualize results with charts to compare restrictions across industries.
-- Automate classification of websites by industry.
 
-## License
-This project is open-source under the MIT License.
